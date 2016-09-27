@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+<link rel="stylesheet" href="css/app.css" />
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script type="tex/javascript" src="scripts/app.js"></script>
+
+
+
+<title>Simon-Game</title>
+</head>
+
+<body>
+<audio id="soundbuttonGre" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+<audio id="soundbuttonRed" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+<audio id="soundbuttonYel" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+<audio id="soundbuttonBlu" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+<audio id="soundbuttonWrong" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
+
+<div id="main" class="container-fluid">
+  <div id="Game" class="container-fluid">
+    <div id="buttonBlu" class="topLeft divSquare"></div>
+    <div id="buttonRed" class="topRight divSquare"></div>
+    <div style='clear:both'></div>
+    <div id="buttonGre" class="bottomLeft divSquare"></div>
+    <div id="buttonYel" class="bottomRight divSquare"></div>
+    <div id="face" class="face">
+      <br>
+      <br>
+      <h1 class="innerText">Simon<span class="small">®</span></h1>
+      <div class="insideFace">
+        <input id="count" disabled></input>
+        <button id="power" class="btn btn-danger">Power</button>
+      </div>
+      <div class="buttons-inside">
+        <span><button class="strict btn">Strict</button></span>
+        <span><button class="start btn">Start</button></span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

@@ -1,0 +1,290 @@
+@import url(https://fonts.googleapis.com/css?family=Alfa+Slab+One);
+/* Basic Reset */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+  background: url(http://www.mrwallpaper.com/wallpapers/wood-planks-1366x768.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.small {
+  font-size: 0.3em;
+  position: relative;
+  top: -20px;
+  color: white!important;
+}
+.on{
+  color: red;
+}
+#Game {
+  position: absolute;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  border: solid 20px black;
+  top: 50px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  background-color: black;
+}
+
+.divSquare:active {
+  opacity: .5;
+}
+.activated {
+  opacity: .5;
+}
+
+.topLeft {
+  position: relative;
+  border: solid 5px;
+  border-top-left-radius: 95%;
+  background-color: blue;
+}
+
+.topRight {
+  position: relative;
+  border: solid;
+  border-top-right-radius: 95%;
+  background-color: red;
+}
+
+.bottomLeft {
+  position: relative;
+  border: solid;
+  border-bottom-left-radius: 95%;
+  background-color: green;
+  opacity: 
+}
+.bottomRight {
+  position: relative;
+  border: solid;
+  border-bottom-right-radius: 95%;
+  background-color: yellow;
+}
+
+.centerBoard {
+  position: ;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  border: solid 20px dimgray;
+  top: 0px;
+  left: 80px;
+  right: 0;
+  z-index: 9;
+}
+.b-blue{
+  background-color: lightblue!important;
+}
+.divSquare {
+  width: 46%;
+  height: 44%;
+  margin: 9px;
+  border: 5px solid;
+  float: left;
+  left: 3px;
+  top: 13px;
+}
+
+.face {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  border: solid 15px black;
+  margin: 0 auto;
+  top: 115px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: black;
+}
+.insideFace {
+  position: absolute;
+  top: 115px;
+  left: 20px;
+}
+
+.innerText {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 60px;
+  color: white;
+  top: 20px;
+}
+
+.start {
+  z-index: 26;
+  position: absolute;
+  right: 45px;
+  top: 50px;
+  background: yellow;
+  font-weight: 800;
+}
+
+.strict {
+  z-index: 26;
+  right: -10px;
+  position: absolute;
+  top: 50px;
+  background: yellow;
+  font-weight: 800;
+}
+
+.buttons-inside {
+  position: absolute;
+  right: 20px;
+  top: 100px;
+  z-index: 9999;
+  color: black;
+}
+
+.buttons-inside button {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  padding: 2px;
+}
+
+#power {
+  margin-top: 90px;
+  margin-left: 30%;
+  width: 100%;
+  font-weight: 800;
+}
+
+#count {
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  padding: 5px;
+  border: solid;
+  border-radius: 0.3em;
+  height: 60px;
+  background-color: gray;
+  margin-left: 30%;
+  margin-bottom: 8px;
+  width: 100%;
+  z-index: 11;
+}
+
+.speaker {
+  border: solid 2px;
+  height: 100px;
+  border-radius: 50px 0 0 50px;
+}
+@media (max-width: 375px){
+
+  #main {
+    top: 40px;
+    
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    
+    -o-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+    
+    left: 50%;
+  }
+}
