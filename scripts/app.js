@@ -1,8 +1,4 @@
-// Coded by Josh Lavely
-  // alwaysStriving();
-// July 7, 2016
-
-
+// Simon
 var power = "off";
 var strict = "off";
 var running = false;
